@@ -121,6 +121,4 @@ nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;flex-
 .slide h1,.slide .h1{font-size:var(--hero-heading-size)}
 .slide .tag{font-size:var(--hero-tag-size)}
 @media(max-width:560px){.slide{--hero-heading-size:clamp(2rem,8vw,2.5rem);--hero-tag-size:clamp(1rem,4vw,1.25rem)}}
-.quality-points{display:flex;flex-wrap:wrap;column-gap:.8em;row-gap:.25em}
-.quality-points .dot-point{white-space:nowrap}
-.quality-points .dot-point:not(:last-child)::after{content:"|";margin-left:.8em;color:var(--gold)}
+.quality-points .dot-point{display:inline}
