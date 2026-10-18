@@ -42,7 +42,7 @@ ul{margin:0;padding:0;list-style:none}
 .models li{background:var(--navy);color:#fff;padding:18px 22px;margin-bottom:10px;border-left:5px solid var(--gold);font-weight:600}
 .band{background:var(--gold);padding:44px 0}.band .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}.band h2{margin:0;max-width:30ch}
 .dark{background:var(--navy);color:#e4eaf7}.dark h2{color:#fff}.dark a{color:var(--gold)}
-.topbar a.whatsapp-link,.dark a.whatsapp-link,footer a.whatsapp-link{color:#25d366}
+.topbar a.whatsapp-link,.dark a.whatsapp-link,footer a.whatsapp-link{color:#25d366;text-decoration:underline;text-underline-offset:.2em}
 .contact{margin-top:24px}.contact li{padding:12px 0;border-bottom:1px solid #2d4580}.contact span{display:inline-block;width:90px;color:#9fb3e0}
 form{background:#fff;color:var(--ink);padding:30px;border-radius:4px;display:grid;gap:14px}
 label{font-weight:600;font-size:.95rem;display:grid;gap:5px;color:var(--navy)}
