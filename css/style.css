@@ -9,6 +9,8 @@ img{max-width:100%;height:auto;display:block}a{color:var(--blue)}
 .skip{position:absolute;left:-999px}.skip:focus{left:10px;top:10px;background:#fff;padding:8px;z-index:99}
 .topbar{background:var(--navy);color:#cfd9f2;font-size:.9rem}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;padding-top:7px;padding-bottom:7px;flex-wrap:wrap}
 .topbar a{color:#fff;text-decoration:none}
+.topbar-contact,.topbar-email{display:inline-flex;align-items:center;gap:10px}
+.topbar-separator{color:#9fb3e0}
 .site-header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 2px 12px rgba(13,33,80,.08)}
 .bar{display:flex;align-items:center;justify-content:space-between;min-height:104px;gap:20px}
 .brand img{height:84px;width:auto}
@@ -67,11 +69,13 @@ nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;flex-
   .btn.ghost{margin:0}
   .actions{display:grid;gap:12px}
   .actions .btn{width:100%;text-align:center}
-  .topbar .wrap{justify-content:center;text-align:center;font-size:.76rem;padding-left:12px;padding-right:12px}
+  .topbar .wrap{justify-content:center;text-align:center;font-size:.8rem;line-height:1.35;padding:5px 12px;gap:4px}
   .topbar .wrap>span{width:100%}
-  .brand img{height:54px}
-  .bar{min-height:76px}
-  .menu-btn{padding:8px 12px}
+  .topbar-contact{justify-content:center;gap:8px}
+  .topbar-email{display:none}
+  .bar{min-height:68px}
+  .brand img{height:50px}
+  .menu-btn{padding:6px 10px;font-size:.95rem}
   .quick a{padding:14px 10px;font-size:.9rem}
   .stats div{padding:24px 14px}
   .stats b{font-size:2.5rem}
